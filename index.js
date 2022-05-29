@@ -23,7 +23,7 @@ app.route("/api/fileanalyse")
       name: req.file.originalname,
       type: req.file.mimetype,
       size: req.file.size
-      });
+    });
 });
 
 
